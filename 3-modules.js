@@ -1,0 +1,7 @@
+const names = require('./4-firstModules')
+const sayHi = require('./5-utils')
+const data = require('./6-alternative')
+require('./7-number')
+sayHi('susan')
+sayHi(names.John)
+sayHi(names.Peter)
